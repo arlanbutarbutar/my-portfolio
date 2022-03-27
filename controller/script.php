@@ -7,7 +7,7 @@ if(isset($_POST['contact-submit'])){
   $name=htmlspecialchars(addslashes(trim($_POST['contact-name'])));
   $email=htmlspecialchars(addslashes(trim($_POST['contact-email'])));
   $message=htmlspecialchars(addslashes(trim($_POST['contact-project']))); require("mail.php");
-  $to       = 'arlan270899@gmail.com';
+  $to       = '...';
   $subject  = 'Pesan Dari Pengunjung!!';
   $message  = "<!doctype html>
       <html>
