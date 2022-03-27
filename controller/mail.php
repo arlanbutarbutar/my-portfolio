@@ -9,13 +9,13 @@ function smtp_mail($to, $subject, $message, $from_name, $from, $cc, $bcc, $debug
   $mail->ClearCCs();
   $mail->ClearBCCs();
   $mail->SMTPAuth         = true;
-  $mail->Host             = 'arcode.pw;202.65.121.46'; // 103.253.215.130 or 202.65.121.46
+  $mail->Host             = '...';
   $mail->Port             = 587;
   $mail->SMTPSecure       = 'tls';
-  $mail->Username         = 'hello@arcode.pw';
-  $mail->Password         = 'Itha040700_';
-  $default_email_from     = 'hello@arcode.pw';
-  $default_email_from_name= 'ar.code_';
+  $mail->Username         = '...';
+  $mail->Password         = '...';
+  $default_email_from     = '...';
+  $default_email_from_name= '...';
   if(empty($from)) $mail->From = $default_email_from;
   else $mail->From = $from;
   if(empty($from_name)) $mail->FromName = $default_email_from_name;
