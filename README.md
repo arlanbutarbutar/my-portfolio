@@ -1,4 +1,4 @@
-# STIKOM
+# my-portfolio
 <p>Aplikasi Portfolio berbasis website.</p>
 
 <p>Anda dapat memiliki aplikasi ini dengan membayar sebesar 590rb dengan hosting dari kami selama setahun, dan jika anda hanya ingin membelinya tanpa hosting maka cukup bayar 450rb .</p>
